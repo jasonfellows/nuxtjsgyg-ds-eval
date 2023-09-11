@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: GT Eesti,Arial,sans-serif!important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: "GT Eesti";
+  font-style: normal;
+  src: url("https://cdn.getyourguide.com/design-system/GT-Eesti/GT-Eesti-Pro-Display-Regular.woff2") format("woff2"),
+    url("https://cdn.getyourguide.com/design-system/GT-Eesti/GT-Eesti-Pro-Display-Regular.woff") format("woff");
+}
